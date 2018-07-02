@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.0.11.208:5000/davisusanibar/ddsa-cicd-jenkins-x
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: ddsa-cicd-jenkins-x
